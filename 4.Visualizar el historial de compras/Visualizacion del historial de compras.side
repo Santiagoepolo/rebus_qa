@@ -1,0 +1,201 @@
+{
+  "id": "b3686a7d-dbe5-42b5-a423-c38118d5a5bc",
+  "version": "2.0",
+  "name": "Visualización del historial de compras",
+  "url": "https://demowebshop.tricentis.com",
+  "tests": [{
+    "id": "b4d4e968-d8c8-4f6f-9ff8-33737af37bd8",
+    "name": "Visualizar historial de compras",
+    "commands": [{
+      "id": "6a6b9c60-db55-40ac-beca-e540a78a0d76",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49fb1544-f034-4fa2-8b5f-76bb35024764",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbeab4cd-905f-4e1d-8a10-dffa388013e7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=.ico-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbbe31c7-43e9-475f-bca4-013213fead5a",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": "santiago97@hotmail.com"
+    }, {
+      "id": "7a36a4f9-4a7a-4e5f-b0f5-eb235edba8b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95d6745b-46c4-4076-b206-75819b971bc1",
+      "comment": "",
+      "command": "type",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": "qwertyuiop"
+    }, {
+      "id": "90bcf23b-6632-45c9-8ded-642c04f81055",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-button",
+      "targets": [
+        ["css=.login-button", "css:finder"],
+        ["xpath=//input[@value='Log in']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e51517e7-1432-4480-b18c-6d7c1cdcbca6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Orders",
+      "targets": [
+        ["linkText=Orders", "linkText"],
+        ["css=.my-account li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Orders')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/customer/orders')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Orders')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7daec5b6-a6c2-4687-b0e9-ef35d0d506fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section:nth-child(3) .button-2",
+      "targets": [
+        ["css=.section:nth-child(3) .button-2", "css:finder"],
+        ["xpath=(//input[@value='Details'])[3]", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11e8c3b9-a399-4f55-85d9-e55c4bb516d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.order-details-area tr",
+      "targets": [
+        ["css=.order-details-area tr", "css:finder"],
+        ["xpath=//tr", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc51fe4a-bccb-484c-9090-c0a31c997ab7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log out",
+      "targets": [
+        ["linkText=Log out", "linkText"],
+        ["css=.ico-logout", "css:finder"],
+        ["xpath=//a[contains(text(),'Log out')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22af51b8-3979-4089-992d-ffef985802d1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "26dae064-71ad-47e0-b65d-d203e5c0b45f",
+    "name": "Error al acceder al historial de compras",
+    "commands": [{
+      "id": "2008363b-aa9d-4138-be24-3324aff8b21c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2eb6f85c-1063-46f8-b859-d23864fa5b7d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43d43de5-fa4a-4886-b463-8dacc112d61b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Orders",
+      "targets": [
+        ["linkText=Orders", "linkText"],
+        ["css=.my-account li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Orders')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/customer/orders')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Orders')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dcf36ba-16eb-4de1-9880-8e39e27f912f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.returning-wrapper strong",
+      "targets": [],
+      "value": "Returning Customer"
+    }, {
+      "id": "6ef1233d-d664-4c97-9ac4-69f3d03f142b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fc65d6fb-12d3-40b6-9a82-9076ea1f599c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b4d4e968-d8c8-4f6f-9ff8-33737af37bd8"]
+  }],
+  "urls": ["https://demowebshop.tricentis.com/"],
+  "plugins": []
+}

@@ -1,0 +1,194 @@
+{
+  "id": "972c3934-55a6-41f5-a540-c6a401bd4b45",
+  "version": "2.0",
+  "name": "Casos de prueba",
+  "url": "https://demowebshop.tricentis.com",
+  "tests": [{
+    "id": "7fd7a076-55d2-4792-8c31-c37e1fa4774a",
+    "name": "Búsqueda y selección de producto",
+    "commands": [{
+      "id": "fb0a4a24-4e7c-442c-aed4-9e8b02740fa6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54eb1b05-3589-4b64-b031-1572491dd69f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3ee87b0-50ee-4197-90d1-b37693f44bfc",
+      "comment": "",
+      "command": "click",
+      "target": "id=small-searchterms",
+      "targets": [
+        ["id=small-searchterms", "id"],
+        ["name=q", "name"],
+        ["css=#small-searchterms", "css:finder"],
+        ["xpath=//input[@id='small-searchterms']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23498226-f99b-4832-bd37-1722929f779a",
+      "comment": "",
+      "command": "type",
+      "target": "id=small-searchterms",
+      "targets": [
+        ["id=small-searchterms", "id"],
+        ["name=q", "name"],
+        ["css=#small-searchterms", "css:finder"],
+        ["xpath=//input[@id='small-searchterms']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "laptop"
+    }, {
+      "id": "2782feaf-19cf-4ff3-8c91-45e1aae03b69",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-box-button",
+      "targets": [
+        ["css=.search-box-button", "css:finder"],
+        ["xpath=//input[@value='Search']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13810b41-c86e-4e85-80dc-65aebcad65bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.picture img",
+      "targets": [
+        ["css=.picture img", "css:finder"],
+        ["xpath=//img[@alt='Picture of 14.1-inch Laptop']", "xpath:img"],
+        ["xpath=//div[3]/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eafe9da1-00c1-45b8-a493-7b4ae127daa0",
+      "comment": "",
+      "command": "click",
+      "target": "id=main-product-img-31",
+      "targets": [
+        ["id=main-product-img-31", "id"],
+        ["css=#main-product-img-31", "css:finder"],
+        ["xpath=//img[@alt='Picture of 14.1-inch Laptop']", "xpath:img"],
+        ["xpath=//img[@id='main-product-img-31']", "xpath:attributes"],
+        ["xpath=//form[@id='product-details-form']/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb4c413e-b71e-4a6c-9ce6-c597c4de610c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [],
+      "value": "14.1-inch Laptop"
+    }, {
+      "id": "d75793dc-50ec-4b62-945f-0092358f10cf",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=p",
+      "targets": [],
+      "value": "Optimize your mobility with a BrightView 14.1-inch display that has the same viewable area as a 15.4-inch screen--in a notebook that weighs a pound less. Encouraging more direct interaction, the backlit media control panel responds to the touch or sweep of a finger. Control settings for audio and video playback from up to 10 feet away with the included HP remote, then store it conveniently in the PC card slot."
+    }, {
+      "id": "c6e92350-01e4-4c60-bec7-cc5688f71035",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b2853ba1-ec2c-423b-9231-6170b4b672d9",
+    "name": "Búsqueda sin resultado",
+    "commands": [{
+      "id": "84b495d3-e06a-40d3-b21f-d6f8558144a2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b63b87e-c6bb-4e42-b395-2990faa063f3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "113ef7a6-2441-47d6-a56a-46c2b871a646",
+      "comment": "",
+      "command": "click",
+      "target": "id=small-searchterms",
+      "targets": [
+        ["id=small-searchterms", "id"],
+        ["name=q", "name"],
+        ["css=#small-searchterms", "css:finder"],
+        ["xpath=//input[@id='small-searchterms']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b80427e-ada1-4ee9-b2b2-c693c19876d9",
+      "comment": "",
+      "command": "type",
+      "target": "id=small-searchterms",
+      "targets": [
+        ["id=small-searchterms", "id"],
+        ["name=q", "name"],
+        ["css=#small-searchterms", "css:finder"],
+        ["xpath=//input[@id='small-searchterms']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "perejil"
+    }, {
+      "id": "d9cb6094-9221-42f5-a9d9-402d21bead5d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-box-button",
+      "targets": [
+        ["css=.search-box-button", "css:finder"],
+        ["xpath=//input[@value='Search']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f949912-59e5-4307-aeda-e923c5b0bd68",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [],
+      "value": "Search"
+    }, {
+      "id": "f376a2b8-474f-44e8-a559-d8a3df154521",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.result",
+      "targets": [],
+      "value": "No products were found that matched your criteria."
+    }, {
+      "id": "40e0c19b-fdda-40b3-961f-520d83d0e15c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "434d4498-ece9-4c52-9417-fff969f2f191",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7fd7a076-55d2-4792-8c31-c37e1fa4774a", "b2853ba1-ec2c-423b-9231-6170b4b672d9"]
+  }],
+  "urls": ["https://demowebshop.tricentis.com/"],
+  "plugins": []
+}

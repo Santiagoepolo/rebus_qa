@@ -1,0 +1,402 @@
+{
+  "id": "d459fa82-583e-43e6-bb24-e98f228f5ceb",
+  "version": "2.0",
+  "name": "Gestión del perfil de usuario",
+  "url": "https://demowebshop.tricentis.com",
+  "tests": [{
+    "id": "82831e92-8b2a-4785-8629-73444b21f82b",
+    "name": "Gestión del perfil de usuario",
+    "commands": [{
+      "id": "606f3f62-aff6-49fb-b38b-e577c99ee725",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe1a1bfe-110c-4260-b865-dbaea2d76c71",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a988448d-c99c-4c79-8197-600a04733da3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=.ico-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "952f0e8d-29e4-47ec-96e5-cfdb75e2ec4b",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": "santiago97@hotmail.com"
+    }, {
+      "id": "b7ce414e-b4d8-4280-9ccc-7c51b4a28b60",
+      "comment": "",
+      "command": "click",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d911a274-b8f7-42c3-8420-b6325ff10550",
+      "comment": "",
+      "command": "type",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": "qwertyuiop"
+    }, {
+      "id": "5ce7a757-344e-4e44-9140-e04a165121ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-button",
+      "targets": [
+        ["css=.login-button", "css:finder"],
+        ["xpath=//input[@value='Log in']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fe727ec-25ff-4ff6-a137-45db582535a5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Santiago97@hotmail.com",
+      "targets": [
+        ["linkText=Santiago97@hotmail.com", "linkText"],
+        ["css=ul:nth-child(1) .account", "css:finder"],
+        ["xpath=//a[contains(text(),'Santiago97@hotmail.com')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/customer/info')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Santiago97@hotmail.com')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8aa1b629-dfe3-4f55-bad4-b48b5c239e1a",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00968595-e713-4ba1-bf13-481220656ad5",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Santiago24@hotmail.com"
+    }, {
+      "id": "520f7761-60b6-4dc3-adb2-f1fbc544550b",
+      "comment": "",
+      "command": "click",
+      "target": "name=save-info-button",
+      "targets": [
+        ["name=save-info-button", "name"],
+        ["css=.save-customer-info-button", "css:finder"],
+        ["xpath=//input[@name='save-info-button']", "xpath:attributes"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac307814-9eca-4b9e-8fb7-dff47aad35ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-links-wrapper",
+      "targets": [
+        ["css=.header-links-wrapper", "css:finder"],
+        ["xpath=//div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aef533b1-6eab-408d-8668-18b3395d6cee",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20158d20-da8d-49f7-89d4-8e512f9bf8ea",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Santiago97@hotmail.com"
+    }, {
+      "id": "dcaeeab9-75be-4af1-bc28-18375f90c32d",
+      "comment": "",
+      "command": "click",
+      "target": "name=save-info-button",
+      "targets": [
+        ["name=save-info-button", "name"],
+        ["css=.save-customer-info-button", "css:finder"],
+        ["xpath=//input[@name='save-info-button']", "xpath:attributes"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c41bf99-e5ba-4f33-868a-4eb2c252fbd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.master-wrapper-content",
+      "targets": [
+        ["css=.master-wrapper-content", "css:finder"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a88f6ac7-a507-471b-aa59-334cae3a17f9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log out",
+      "targets": [
+        ["linkText=Log out", "linkText"],
+        ["css=.ico-logout", "css:finder"],
+        ["xpath=//a[contains(text(),'Log out')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89f07094-5aef-4cf1-905e-885cb24c54dd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "db783f7c-0056-427f-9aa2-ec395cdb54d7",
+    "name": "Error al gestionar el perfil de usuario",
+    "commands": [{
+      "id": "442d912d-76b8-4356-b112-cce982b11d22",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a505ae10-3300-4f35-861e-521ecfd45b9a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2fe743f-4dfc-4840-8714-89a0bbc4f5ad",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=.ico-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9315e441-b0d2-42f1-9064-cc059f8cf04e",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": "santiago97@hotmail.com"
+    }, {
+      "id": "fade492f-cf39-46eb-9528-709dc72e3ee9",
+      "comment": "",
+      "command": "click",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4df12bb-a81a-48e8-8574-6a0aa708b316",
+      "comment": "",
+      "command": "type",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": "qwertyuiop"
+    }, {
+      "id": "4a22338d-9184-44be-9fac-c988ea269393",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-button",
+      "targets": [
+        ["css=.login-button", "css:finder"],
+        ["xpath=//input[@value='Log in']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "563c33ea-1175-4227-8141-16cfd33f36f0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Santiago97@hotmail.com",
+      "targets": [
+        ["linkText=Santiago97@hotmail.com", "linkText"],
+        ["css=ul:nth-child(1) .account", "css:finder"],
+        ["xpath=//a[contains(text(),'Santiago97@hotmail.com')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/customer/info')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Santiago97@hotmail.com')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05ea5663-1222-4faf-ab29-77858e79e171",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3385c7fd-2812-499d-8d8a-bee4058ef652",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97f076a9-752c-44aa-913d-3a46c2eb9f37",
+      "comment": "",
+      "command": "click",
+      "target": "name=save-info-button",
+      "targets": [
+        ["name=save-info-button", "name"],
+        ["css=.save-customer-info-button", "css:finder"],
+        ["xpath=//input[@name='save-info-button']", "xpath:attributes"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe7599c6-3044-4952-9f1a-c2b6e1cd79f3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=save-info-button",
+      "targets": [
+        ["name=save-info-button", "name"],
+        ["css=.save-customer-info-button", "css:finder"],
+        ["xpath=//input[@name='save-info-button']", "xpath:attributes"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26d09db9-6bac-43dc-a969-223bb4b56cab",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "name=save-info-button",
+      "targets": [
+        ["name=save-info-button", "name"],
+        ["css=.save-customer-info-button", "css:finder"],
+        ["xpath=//input[@name='save-info-button']", "xpath:attributes"],
+        ["xpath=//form/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cb3af70-1e1a-4ba8-85af-1519a8afede4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.field-validation-error > span",
+      "targets": [],
+      "value": "Email is required."
+    }, {
+      "id": "a19e98e7-ede3-4784-867c-4272dcf76051",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5afa7c5b-dcda-437c-b95d-f71eaa7b0c4d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["82831e92-8b2a-4785-8629-73444b21f82b"]
+  }],
+  "urls": ["https://demowebshop.tricentis.com/"],
+  "plugins": []
+}
